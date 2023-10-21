@@ -26,7 +26,7 @@ html {
 .fon-text {
   width: clamp(10px, 100%, 1200px);
   height: clamp(10px, 100vw, 2000px);
-  background-color: red;
+  background-color: white;
   position: absolute;
   height:2060px;
   top: 0;
@@ -56,7 +56,10 @@ html {
     position:relative;
     z-index:2;
 }
+    </style>
 
+    <!--img-->
+    <style>
 .img1 {
     position:absolute;
     z-index:3;
@@ -290,6 +293,15 @@ html {
     }
 }
 
+@media screen and (max-width: 715px) {
+    .img1{
+        left:45px;
+        width:600px;
+        height:600px;
+    }
+}
+
+
 @media screen and (max-width: 670px) {
     .img1{
         left:20px;
@@ -439,3 +451,4 @@ html {
 </head>
 </body>
 </html>
+
